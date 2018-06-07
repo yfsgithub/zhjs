@@ -1,0 +1,29 @@
+{
+  "name": "zhjs",
+  "version": "1.0.0",
+  "description": "中文编程",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "zhjs": "./bin/zhjs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yfsgithub/zhjs.git"
+  },
+  "keywords": [
+    "中文"
+  ],
+  "author": "yfs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yfsgithub/zhjs/issues"
+  },
+  "homepage": "https://github.com/yfsgithub/zhjs#readme",
+  "dependencies": {
+    "shelljs": "^0.8.2",
+    "yargs": "^11.0.0"
+  }
+}

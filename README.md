@@ -27,3 +27,13 @@
 W循环    while
 C循环    for
 异步遍历 foreach
+
+## 命令行
+1、在package.json中加入
+```
+"bin": {
+    "zhjs": "./bin/zhjs.js"
+  },
+```
+2、根目录下`npm link`
+3、命令行即可使用 zhjs命令
